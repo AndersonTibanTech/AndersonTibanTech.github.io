@@ -171,9 +171,7 @@ html, body{
   padding-left: 0%;
   font-weight: bold;
 }
-.navbar-brand:hover{
-  color: lightblue;
-}
+
 .wrapper{
   width: 75%;
   margin: 0 auto;
