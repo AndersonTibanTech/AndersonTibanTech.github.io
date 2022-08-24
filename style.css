@@ -51,9 +51,7 @@ body{
     padding-left: 0%;
     font-weight: bold;
 }
-.navbar-brand:hover{
-    color: grey;
-}
+
 .wrapper{
     width: 75%;
     margin: 0 auto;
