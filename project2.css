@@ -1,0 +1,303 @@
+@media screen and (min-device-width:750px){
+  *{
+      background-color: #282a36;
+  }
+   
+     body{
+      background-color: #282a36;
+     }
+      html{
+          scroll-behavior: smooth;
+          animation: transitionIn 1.00s;
+          margin:0;
+          padding: 0;
+          background-color: #282a36;
+        
+      }
+      @keyframes transitionIn {
+          from{
+              opacity: 0;
+              transform: rotateX(-10deg);
+          }
+      
+          to{
+              opacity: 1;
+              transform: rotateX(0);
+      }
+      }
+  .nav{
+      padding-top: 15px;
+    }
+    .topnav{
+      display: none;
+    }
+    .navbar-expand-lg{
+      width: 100%;
+      padding:0;
+      margin:0;
+      font-weight: bold;
+    }
+    .nav-link{
+      font-weight: bold;
+      color: whitesmoke;
+    }
+    .navbar-brand{
+      color: whitesmoke;
+      padding-right: 44.5%;
+      font-size: 160%;
+      padding-left: 12.8%;
+      font-weight: bold;
+     }
+    .wrapper{
+      width: 50%;
+      margin: 0 auto;
+    }
+    .overview{
+      padding-top: 12%;
+      width: 100%;
+      color:whitesmoke;
+      padding-left: 1%;
+    }
+  
+  
+    .overview p{
+      line-height: 35px;
+    }
+    .overview-solution{
+      padding-top: 5%;
+      width: 100%;
+      color:whitesmoke;
+      padding-left: 1%;
+      padding-bottom: 3%;
+  
+    }
+    .overview-image{
+      float:left;
+      width:50%;
+      padding-bottom: 1%;
+    }
+    .overview-image:hover{
+      transform: scale(1.10); 
+    }
+    .overview-solution p{
+      line-height: 35px;
+    }
+    .overvied{
+      color: white;
+      padding-left: 4px;
+    }
+    hr{
+      background-color:whitesmoke;
+    }
+    .btn-primary{
+      background-color: rgb(0, 149, 255);
+      color: white;
+      border: none;
+      cursor: none;
+    }
+  
+    .tools{
+      width: 50%;
+      padding-left: 25%;
+      padding-right: 0%;
+      padding-bottom: 12%;
+      float: left;
+    }
+    .tools h4, p{
+      color:white;
+  
+    }
+    .link{
+      text-align: right;
+    }
+    .tools h4{
+      padding-top: 7%;
+      padding-bottom: 8%;
+    }
+    .tools p{
+      margin: 0 auto;
+      background-color: rgb(0, 149, 255);
+      border-radius: 3px;
+      border: 5px solid rgb(0, 149, 255);
+      width: 30%
+    }
+    .mobile-image{
+    padding-top: 2%;  
+    width: 50%;
+    float: right;
+    padding-right: 0%;
+    }
+    .mobileResponse{
+      width: 45%;
+      padding: 0%;
+      border-top-left-radius: 9px;
+      border-top-right-radius:9px;
+      border: 3px solid white;
+      background-color: blue;
+    }
+    .mobile-divImage{
+      display: none;
+    }
+    .button1{
+      display: inline-block;
+      border-radius: 2px;
+      font-size: 14px;
+      color: #FFF;
+      padding: 4px 8px;
+      cursor:default;
+      background-color: rgb(0, 149, 255);   
+    }
+    h3{
+      font-weight: lighter;
+      color: white;
+    }
+
+    .wrapper p{
+      color:rgb(156, 156, 156);
+    }
+    .wrapper h10{
+      font-weight: lighter;
+      font-size: small;
+      color: white;
+    }
+    .desktop{
+      display: none;
+    }
+  }
+  
+  
+  @media screen and (max-device-width:480px){
+      *{
+          background-color: whitesmoke;
+         }
+         body{
+          background-color: whitesmoke;
+         }
+          html{
+              scroll-behavior: smooth;
+              animation: transitionIn 1.00s;
+              margin:0;
+              padding: 0;
+              background-color: whitesmoke;
+            
+          }
+          @keyframes transitionIn {
+              from{
+                  opacity: 0;
+                  transform: rotateX(-10deg);
+              }
+          
+              to{
+                  opacity: 1;
+                  transform: rotateX(0);
+          }
+          }
+          .nav{
+              display: none;
+          }
+          /* Style the navigation menu */
+  .topnav {
+      overflow: hidden;
+      background-color: #282a36;
+      position: relative;
+      width: 100%;
+  
+    }
+    .wrapper h2{
+      font-weight: normal;
+    }
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+      display: none;
+      ;
+    }
+    
+    /* Style navigation menu links */
+    .topnav a {
+      color: black;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+    }
+    
+    /* Style the hamburger menu */
+    .topnav a.icon {
+      background:white;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+  
+    }
+    .overview-image{
+      display: none;
+    }
+  
+    hr{
+      display: none;
+    }
+    .wrapper{
+      padding-top: 10%;
+      width: 85%;
+      margin: 0 auto;
+    }
+    p{
+      line-height: 30px;
+      padding-bottom: 5%;
+    }
+  
+    /* Add a grey background color on mouse-over */
+  
+    
+    /* Style the active link (or home/logo) */
+    .active {
+      background-color: white;
+      color: rgb(108, 207, 252);
+    }
+    .image-home{
+      width: 25px;
+      height: auto;
+      margin: 0 auto;
+      
+    }
+
+    .mobile-divImage{
+      display: block;
+    }
+    .image-temp{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .mobile-image{
+      display: none;
+    }
+    .tools{
+      width: 100%;
+      text-align: center;
+    }
+    .button1{
+      display: inline-block;
+      border-radius: 2px;
+      font-size: 14px;
+      color: #FFF;
+      padding: 4px 8px;
+      cursor:default;
+      background-color: rgb(0, 149, 255);   
+    }
+    .btn-primary{
+      background: linear-gradient(-45deg, rgb(250, 231, 145), rgb(212, 138, 0), rgb(240, 84, 84));
+      border: none;
+    }
+    .mobileResponse {
+      display: block;
+    }
+
+    .desktop{
+      display: block;
+    }
+    .mobile{
+      display: none;
+    }
+  
+  }
